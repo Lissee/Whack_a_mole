@@ -1,0 +1,79 @@
+body{
+    background-image: url(images/1.jpg);
+    height: 703px;
+    display: block;
+}
+h1{
+    background-color: rgba(193, 218, 255, 0.19);
+    color: #FFFBD1;
+    padding: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    display: block;
+}
+
+p{
+    background-color: rgba(193, 248, 255, 0.2);
+    color: #FFFBD1;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    display: block;
+}
+#moles{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 82px);
+    grid-auto-rows: 82px;
+    margin-top: 10px;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.one{
+    background-color: rgba(193, 208, 255, 0.29);
+    border: 3px solid  #FFFBD1;
+    height: 90px;
+    width: 90px;
+    display: table;
+}
+
+button{
+    background-color: rgba(193, 248, 255, 0.2);
+    font-size:26px;
+    color: #FFFBD1;
+    margin-top: 40px;
+    margin-right: 40.3%;
+    margin-left: 46%;
+    padding: 10px;
+    justify-content: center;
+    display: block;
+}
+
+.more{
+    background-color: rgba(193, 218, 255, 0.19);
+    color: #FFFBD1;
+    margin-right: 23%;
+    margin-left: 23%;
+    justify-content: center;
+    display: flex;
+}
+
+.more1{
+    font-size:16px;
+    color: #FFFBD1;
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: center;
+    display: block;
+}
+
+.mole{
+    background: rgba(193, 218, 255, 0.19);
+    margin: 25px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
